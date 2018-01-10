@@ -1,0 +1,86 @@
+#home-flats {
+  padding: 100px 0;
+}
+
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#home-flats h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.card {
+  height: 200px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.card-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.card-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.card-description h3 {
+    font-size: 23px;
+}
+
+.card-description p {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.card-description .rating {
+    opacity: 1;
+}
+
+
+p {
+    margin: 0 0 12.5px;
+}
+
+.card-user {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    background: black;
+    opacity: 0;
+}
+
+a {
+    color: #469AE0;
+    text-decoration: none;
+}
